@@ -1,0 +1,110 @@
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: white;
+}
+
+header {
+    color: rgb(8, 0, 15);
+    background-color: rgb(117, 10, 199);
+    padding: 10px;
+    border: none;
+    margin: -8px;
+    position: sticky;
+    top: -120px;
+    opacity: 0.9;
+    height: 120px;
+}
+
+.container {
+    display: flex; /* flexbox to align items in a row */
+    align-items: center; /* Center items vertically */
+  }
+
+.english-name {
+    color: aliceblue;
+    margin-right: 50px;
+} 
+
+.arabic-name {
+    direction: rtl;
+    text-align: right;
+    color: aliceblue;
+} 
+.container photo {
+    max-width: 100px; 
+    margin-right: 10px; /* Some space between the image and text */
+       
+}
+
+nav {
+    background-color: rgb(79, 34, 139);
+    color: whitesmoke;
+    font-size: 1em;
+    font-weight:5px;
+    text-decoration: none;
+    position: sticky;
+    top: 20px;
+    margin: -10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkedin {
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: inherit;
+    padding: 20px;
+}
+
+.GitHub{
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: inherit;
+    padding: 20px;
+}
+
+.CV {
+    color: inherit;
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: inherit;
+    padding: 10px;
+}
+
+.Facebook {
+    color: inherit;
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: inherit;
+    padding: 10px;
+}
+
+.mail-us {
+    color: inherit;
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: inherit;
+    padding: 10px;
+}
+
+.section1 {
+    color: rgb(4, 0, 7);
+    font-size: 20px;
+    padding: 30px;
+}
+
+footer {
+    background-color: rgb(45, 1, 1);
+    background-size: cover;
+    padding: 8px;
+    border: none;
+}
